@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Game with JavaScript</title>
+    <title>Memory Game - How Good is Your Memory?</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="game">
-        <div class="controls">
-            <button>Start</button>
-            <div class="stats">
-                <div class="moves">0 moves</div>
-                <div class="timer">Time: 0 sec</div>
-            </div>
+    <div class="container">
+        <div class="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>Click on a card to reveal its symbol.</li>
+                <li>Try to find all matching pairs of cards.</li>
+                <li>Remember the symbols and their positions.</li>
+                <li>Complete the game in the fewest moves and shortest time possible.</li>
+            </ul>
         </div>
-        <div class="board-container">
-            <div class="board" data-dimension="4"></div>
-            <div class="win">You won!</div>
+        <div class="game">
+            <h1>Memory Matching Mania</h1>
+            <div class="board-container">
+                <div class="board" data-dimension="4"></div>
+                <div class="win">Congratulations!</div>
+            </div>
+            <div class="controls">
+                <button>Start</button>
+                <div class="stats">
+                    <div class="moves">0 moves</div>
+                    <div class="timer">Time: 0 sec</div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
